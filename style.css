@@ -1,0 +1,101 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #db5331;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #b61d09;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #003d80;
+}
+
+/* Portada */
+.portada {
+    margin: 20px;
+    text-align: center;
+}
+
+.imagen-portada {
+    background-color: #ddd;
+    height: 200px;
+    line-height: 200px;
+    font-size: 24px;
+    color: #666;
+    border-radius: 10px;
+}
+
+/* Estilo para la sección de productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Cada producto */
+.producto {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Imagen del producto */
+.foto {
+    background-color: #eee;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    line-height: 200px;
+    color: #666;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Títulos y texto de los productos */
+.producto h3 {
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.producto p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #db5331;
+    color: white;
+    margin-top: 20px;
+}
